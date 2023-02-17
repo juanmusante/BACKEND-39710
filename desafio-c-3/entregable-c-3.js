@@ -59,6 +59,6 @@ ProductManager3.addProducts('producto prueba', 'Este es un producto prueba', 200
 ProductManager1.getProducts();
 ProductManager2.getProducts();
 ProductManager3.getProducts();
-ProductManager1.getProductById(1);
-ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
-ProductManager1.getProductById(12);
+// ProductManager1.getProductById(1);
+// ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
+// ProductManager1.getProductById(12);
