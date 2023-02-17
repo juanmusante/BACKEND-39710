@@ -30,7 +30,7 @@ class ProductManager {
         } else if (infoError.length < 7) {
             console.error(`Some information is missing`);
         } else {
-            this.products.push(newProduct)
+            this.products.push(newProduct);
             console.log(`The item ${title}, has been added.`)
         }
     }
@@ -40,12 +40,12 @@ class ProductManager {
     }
 
     getProductById = (id) => {
-        const checkId = this.products.find(item => item.id === id)
+        const checkId = this.products.find(item => item.id === id);
 
         if(checkId){
-            console.log(checkId)
+            return checkId;
         } else {
-            console.error(`id: ${id} not found.`)
+            console.error(`id: ${id} not found.`);
         }
     }
 }
